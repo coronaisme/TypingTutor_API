@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2020_02_11_014108) do
 
   create_table "games", force: :cascade do |t|
     t.integer "player_id", null: false
-    t.integer "score"
+    t.integer "score", default: 0
     t.index ["player_id"], name: "index_games_on_player_id"
   end
 
