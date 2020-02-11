@@ -1,3 +1,0 @@
-class PlayedGameWordsController < ApplicationController
-  
-end

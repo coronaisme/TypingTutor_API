@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get '/words' => 'words#index'
+  get '/words/:id' => 'words#show'
+
+  get '/players' => 'players#index'
+  get '/players/:id' => 'players#show'
+
+  get '/games' => 'games#index'
+  get '/games/:id' => 'games#show'
 end

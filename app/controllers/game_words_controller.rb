@@ -1,0 +1,3 @@
+class GameWordsController < ApplicationController
+  
+end
