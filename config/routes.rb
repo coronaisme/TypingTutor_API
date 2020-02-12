@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # post '/players/:id' => 'players#create'
 
   resources :players
-  #TETSTSTSTSTS
+  
 
   get '/games' => 'games#index'
   get '/games/:id' => 'games#show'
