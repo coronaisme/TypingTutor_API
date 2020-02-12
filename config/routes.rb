@@ -7,10 +7,12 @@ Rails.application.routes.draw do
   # post '/players/:id' => 'players#create'
 
   resources :players
+  resources :games
+  resources :gamewords
   
 
-  get '/games' => 'games#index'
-  get '/games/:id' => 'games#show'
+  # get '/games' => 'games#index'
+  # get '/games/:id' => 'games#show'
 
 
 
