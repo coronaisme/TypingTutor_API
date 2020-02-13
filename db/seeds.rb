@@ -47,6 +47,13 @@ Word.create(title: "take",letter_count: 4)
 Word.create(title: "lake",letter_count: 4)
 Word.create(title: "fake",letter_count: 4)
 Word.create(title: "nape",letter_count: 4)
+Word.create(title: "nick",letter_count: 4)
+Word.create(title: "boot",letter_count: 4)
+Word.create(title: "toot",letter_count: 4)
+Word.create(title: "loot",letter_count: 4)
+Word.create(title: "moot",letter_count: 4)
+Word.create(title: "plop",letter_count: 4)
+Word.create(title: "blob",letter_count: 4)
 
 
 
@@ -95,6 +102,13 @@ Word.create(title: "semen",letter_count: 5)
 Word.create(title: "balls",letter_count: 5)
 Word.create(title: "award",letter_count: 5)
 Word.create(title: "learn",letter_count: 5)
+Word.create(title: "demon",letter_count: 5)
+Word.create(title: "troll",letter_count: 5)
+Word.create(title: "kroll",letter_count: 5)
+Word.create(title: "coach",letter_count: 5)
+Word.create(title: "roach",letter_count: 5)
+Word.create(title: "toast",letter_count: 5)
+
 
 
 
@@ -149,7 +163,10 @@ Word.create(title: "wework",letter_count: 6)
 Word.create(title: "porked",letter_count: 6)
 Word.create(title: "condom",letter_count: 6)
 Word.create(title: "donkey",letter_count: 6)
-
+Word.create(title: "cranky",letter_count: 6)
+Word.create(title: "shakey",letter_count: 6)
+Word.create(title: "shakem",letter_count: 6)
+Word.create(title: "gottem",letter_count: 6)
 
 # 7 letters
 Word.create(title: "limited",letter_count: 7)
