@@ -1,7 +1,16 @@
 class GamesController < ApplicationController
     def index
-        games = Game.all
-        render json: games
+        # byebug
+        if params[:user_id]
+            player = Player.find(params[:user_id])
+            player_games = player.games
+
+            render json: player_games
+        else
+            games = Game.all
+            render json: games
+        end
+
     end
 
     def show 
@@ -11,6 +20,12 @@ class GamesController < ApplicationController
 
     def create
         game = Game.create(games_params)
+        render json: game
+    end
+
+    def update
+        game = Game.find(params[:id])
+        game.update(games_params)
         render json: game
     end
 

@@ -47,6 +47,13 @@ Word.create(title: "take",letter_count: 4)
 Word.create(title: "lake",letter_count: 4)
 Word.create(title: "fake",letter_count: 4)
 Word.create(title: "nape",letter_count: 4)
+Word.create(title: "nick",letter_count: 4)
+Word.create(title: "boot",letter_count: 4)
+Word.create(title: "toot",letter_count: 4)
+Word.create(title: "loot",letter_count: 4)
+Word.create(title: "moot",letter_count: 4)
+Word.create(title: "plop",letter_count: 4)
+Word.create(title: "blob",letter_count: 4)
 
 
 
@@ -95,6 +102,13 @@ Word.create(title: "semen",letter_count: 5)
 Word.create(title: "balls",letter_count: 5)
 Word.create(title: "award",letter_count: 5)
 Word.create(title: "learn",letter_count: 5)
+Word.create(title: "demon",letter_count: 5)
+Word.create(title: "troll",letter_count: 5)
+Word.create(title: "kroll",letter_count: 5)
+Word.create(title: "coach",letter_count: 5)
+Word.create(title: "roach",letter_count: 5)
+Word.create(title: "toast",letter_count: 5)
+
 
 
 
@@ -149,7 +163,10 @@ Word.create(title: "wework",letter_count: 6)
 Word.create(title: "porked",letter_count: 6)
 Word.create(title: "condom",letter_count: 6)
 Word.create(title: "donkey",letter_count: 6)
-
+Word.create(title: "cranky",letter_count: 6)
+Word.create(title: "shakey",letter_count: 6)
+Word.create(title: "shakem",letter_count: 6)
+Word.create(title: "gottem",letter_count: 6)
 
 # 7 letters
 Word.create(title: "limited",letter_count: 7)
@@ -196,25 +213,25 @@ p7 = Player.create(name: "Amelie")
 
 
 #games
-g1 = Game.create(score: 16, player: p1)
-g2 = Game.create(score: 23, player: p2)
-g3 = Game.create(score: 9, player: p3)
-g4 = Game.create(score: 13, player: p4)
-g5 = Game.create(score: 13, player: p5)
-g6 = Game.create(score: 4, player: p6)
-g7 = Game.create(score: 22, player: p7)
-g8 = Game.create(score: 35, player: p2)
-g9 = Game.create(score: 31, player: p3)
+# g1 = Game.create(score: 16, player: p1)
+# g2 = Game.create(score: 23, player: p2)
+# g3 = Game.create(score: 9, player: p3)
+# g4 = Game.create(score: 13, player: p4)
+# g5 = Game.create(score: 13, player: p5)
+# g6 = Game.create(score: 4, player: p6)
+# g7 = Game.create(score: 22, player: p7)
+# g8 = Game.create(score: 35, player: p2)
+# g9 = Game.create(score: 31, player: p3)
 
 
-#gamewords
-gw1 = GameWord.create(game: g1, word: w1)
-gw2 = GameWord.create(game: g2, word: w2)
-gw3 = GameWord.create(game: g3, word: w3)
-gw4 = GameWord.create(game: g4, word: w4)
-gw5 = GameWord.create(game: g5, word: w5)
-gw6 = GameWord.create(game: g6, word: w6)
-gw7 = GameWord.create(game: g7, word: w11)
-gw8 = GameWord.create(game: g8, word: w14)
+# #gamewords
+# gw1 = GameWord.create(game: g1, word: w1)
+# gw2 = GameWord.create(game: g2, word: w2)
+# gw3 = GameWord.create(game: g3, word: w3)
+# gw4 = GameWord.create(game: g4, word: w4)
+# gw5 = GameWord.create(game: g5, word: w5)
+# gw6 = GameWord.create(game: g6, word: w6)
+# gw7 = GameWord.create(game: g7, word: w11)
+# gw8 = GameWord.create(game: g8, word: w14)
 
 
